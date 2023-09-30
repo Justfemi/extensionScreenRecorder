@@ -4,20 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Degraphe Video Recorder</title>
+    <title>HNG Screen Recorder</title>
 </head>
 <body>
     <div class="content">
-        <h2>TAKE VIDEO</h2>
+        <div class="heading">
+            <!-- logo -->
+            <img src="./images/logo.png" alt="logo">
+            
+            <div class="right">
+                <img src="./images/settings.svg" alt="logo">
 
-        <div class="button_cont">
-            <button id="start_video">START VIDEO</button>
+                <img src="./images/close.svg" alt="#">
+            </div>
         </div>
-        <br>
-        <div class="button_cont">
-            <button id="stop_video">STOP VIDEO</button>
+        <p class="describe">This extension helps you record and share videos with ease</p>
+        <div class="options">
+            <div class="tab">
+                <img src="./images/fullscreen.png" alt="logo">
+                <p>Full screen</p>
+            </div>
+            
+            <div class="tab colored">
+                <img src="./images/current-tab.svg" alt="logo">
+                <p>Current Tab</p>
+            </div>
         </div>
+        <div class="panel">
+            <div class="name">
+                <!-- camera -->
+                <img src="./images/camera.svg" alt="logo">
+                <p>Camera</p>
+            </div>
 
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="panel">
+            <div class="name">
+                <!-- camera -->
+                <img src="./images/audio.svg" alt="logo">
+                <p>Audio</p>
+            </div>
+
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <button>Start Recording</button>
     </div>
 
     <script src="./js/popup.js"></script>

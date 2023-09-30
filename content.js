@@ -1,5 +1,7 @@
 console.log("Hi, I have been injected whoopie!!!")
 
+
+
 var recorder = null
 function onAccessApproved(stream){
     recorder = new MediaRecorder(stream);
@@ -58,8 +60,6 @@ chrome.runtime.onMessage.addListener( (message, sender, sendResponse)=>{
         if(!recorder) return console.log("no recorder")
 
         recorder.stop();
-
-
     }
 
 })
