@@ -18,7 +18,7 @@
                 <img src="./images/close.svg" alt="#">
             </div>
         </div>
-        <p class="describe">This extension helps you record and share videos with ease</p>
+        <p class="describe">This extension helps you record and share videos with ease.</p>
         <div class="options">
             <div class="tab">
                 <img src="./images/fullscreen.png" alt="logo">
@@ -54,10 +54,14 @@
                 <span class="slider round"></span>
             </label>
         </div>
-        <button>Start Recording</button>
+        <button id="start_video">Start Recording</button>
+        <button id="stop_video">Stop Recording</button>
     </div>
-
     <script src="./js/popup.js"></script>
-
 </body>
 </html>
+
+<!-- "content_scripts" : [{
+    "matches": ["<all_urls>"],
+    "js": ["./content.js"]
+}], -->

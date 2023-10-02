@@ -1,7 +1,5 @@
 console.log("Hi, I have been injected whoopie!!!")
 
-
-
 var recorder = null
 function onAccessApproved(stream){
     recorder = new MediaRecorder(stream);

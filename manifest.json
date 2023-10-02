@@ -22,7 +22,7 @@
 
     "host_permissions": [
         "http://*/",
-        "https://*/*"
+        "https://*/"
     ],
 
     "permissions": [

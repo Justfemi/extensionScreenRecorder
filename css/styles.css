@@ -6,11 +6,17 @@
     box-sizing: border-box;
 }
 
+/* body {
+    border: solid transparent;
+    border-radius: 24px;
+} */
+
 .content{
     padding: 10px 20px;
-    min-width: 250px;
+    min-width: 300px;
     border-radius: 24px;
-    margin-top: 20px;
+    /* border: solid transparent;
+    box-shadow: 5px 10px 8px #888888; */
 }
 
 .content .describe {
@@ -30,7 +36,8 @@ button {
     padding: 15px;
     border: none;
     border-radius: 12px;
-    margin: 25px 0;
+    margin: 10px 0 15px;
+    cursor: pointer;
 }
 
 .heading {
@@ -45,6 +52,7 @@ button {
     align-items: center;
     justify-content: space-between;
     width: 50px;
+    cursor: pointer;
 }
 
 .options {
@@ -53,6 +61,14 @@ button {
     justify-content: space-around;
     text-align: center;
     margin: 25px 0;
+}
+
+.options .tab {
+    cursor: pointer;
+}
+
+.options .tab:hover p {
+    color: #120B48;
 }
 
 .options .tab p {
